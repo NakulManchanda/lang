@@ -1,4 +1,6 @@
 # https://towardsdatascience.com/4-ways-of-question-answering-in-langchain-188c6707cc5a
+# https://github.com/sophiamyang/tutorials-LangChain/blob/main/LangChain_QA.ipynb
+
 import logging
 import os
 from dotenv import load_dotenv
