@@ -52,10 +52,12 @@ def example1():
     # save image to disk
     from PIL import Image
     boat.save(f'{OUTPUT_DIR}/boat.png')
+    return boat
 
 ## EXAMPLE 2: Generate text based on image
 def example2():
     # `image_captioner` to generate a caption for the image.
+    boat = example1()
     caption = agent.run("Can you caption the `boat_image`?", boat_image=boat)
     print(f'CAPTION: {caption}')
 
@@ -68,4 +70,4 @@ def example3():
     audio = agent.run("Can you generate an image of a boat? Please read out loud the contents of the image afterwards")
     play_audio(audio, 'boat_image_desc_audio')
 
-example3()
+example2()
