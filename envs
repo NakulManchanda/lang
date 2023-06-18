@@ -2,7 +2,10 @@
 OPENAI_API_KEY=
 SERPAPI_API_KEY=
 HF_TOKEN=
+GITHUB_TOKEN=
 
 # CONFIG
 PDF_ROOT_DIR=data/pdfs
 OUTPUT_DIR=data/output
+CHROMA_DIR=.chroma
+DOWNLOAD_REPO=https://github.com/NakulManchanda/commonwealth

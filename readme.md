@@ -1,3 +1,41 @@
+# Environment
+
+## python
+
+## pyenv
+
+```
+brew install pyenv
+pyenv install 3.10
+pyenv versions
+export PATH="$PATH:~/.pyenv/versions/3.10.11/bin"
+pyenv global 3.10.11
+```
+
+## pipenv
+
+```
+pip install --user pipenv
+pipenv shell
+# pipenv install including dev packages
+pipenv install -d  
+```
+
+## python debug
+
+python debug statement
+
+```
+python -m debugpy --listen 0.0.0.0:5678 extending-chatgpt/11_chroma-gettingstarted.py
+```
+
+## Git LFS
+brew install git-lfs
+git lfs install
+git lfs track "*.png"
+git lfs track "*.pdf"
+
+
 # Random LLM Samples Hands-on
 
 ## Register for private keys
