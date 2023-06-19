@@ -23,6 +23,8 @@ opencv-python = "==4.7.0.72"
 playsound = "==1.3.0"
 torchaudio = "==2.0.2"
 pyobjc = "==9.1.1"
+guardrails-ai = "==0.1.8"
+faiss-cpu = "==1.7.4"
 
 [dev-packages]
 debugpy = "==1.6.7"

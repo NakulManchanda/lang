@@ -10,7 +10,7 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "args": ["https://github.com/hicommonwealth/commonwealth"],
+            "justMyCode": false,
             "console": "integratedTerminal"
         },
         {

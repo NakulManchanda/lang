@@ -1,11 +1,14 @@
 # KEYS
-OPENAI_API_KEY=
-SERPAPI_API_KEY=
-HF_TOKEN=
-GITHUB_TOKEN=
+OPENAI_API_KEY=wl-8lsdkjfsdl
+SERPAPI_API_KEY=5d2lsdkjdsljksd
+HF_TOKEN=hf_slddsjljs
+GITHUB_TOKEN=ghp_lkdjlsdkjflsdj
 
 # CONFIG
 PDF_ROOT_DIR=data/pdfs
 OUTPUT_DIR=data/output
 CHROMA_DIR=.chroma
 DOWNLOAD_REPO=https://github.com/NakulManchanda/commonwealth
+SQL_SCHEMA=data/db/schema.sql
+SQL_EXAMPLES=data/db/examples.json
+SQL_CONN_STRING=sqlite:///data/db/department_management.sqlite
